@@ -1,12 +1,6 @@
 spring:
   application:
     name: discovery-service
-  cloud:
-    config:
-      server:
-        git:
-          clone-on-start: true
-          uri: https://github.com/zinebMachrouh/GringottsConfig.git
 server:
     port: 8761
 eureka:
