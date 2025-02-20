@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:12
+    container_name: Customer-DB
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: CustomerDB
+    ports:
+      - "5438:5432"
+    volumes:
+      - ./db:/var/lib/postgresql/data
