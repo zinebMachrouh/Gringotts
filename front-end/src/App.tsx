@@ -1,9 +1,10 @@
 import './App.css'
+import Header from './components/header';
 
 const App = () => {
     return (  
         <>
-            <h1>React Typescript App</h1>
+            <Header />
         </>
     );
 }
